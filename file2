@@ -1,1 +1,81 @@
-i am good
+ 1  yum install git
+    2  touch h1
+    3  ll
+    4  yum install git -y
+    5  git init .
+    6  git add *
+    7  git commit -m "myfirst commit" h1
+    8  git branch -M main
+    9  git remote add origin https://github.com/Harshitpatnaik/aws1.git
+   10  git push -u origin main
+   11  vim h1
+   12  git add .
+   13  git commit -m "2" h1
+   14  git push -u origin main
+   15  git pull
+   16  cat h1
+   17  vim h1
+   18  git add .
+   19  git commit -m "3" h1
+   20  git push -u origin main
+   21  git checkout
+   22  git branch
+   23  git branch sbi-hyd
+   24  git checkout
+   25  git branch checkout
+   26  git branch
+   27  git branch sbi-hyd
+   28  git branch checkout sbi-hyd
+   29  git checkout sbi-hyd
+   30  git branch
+   31  git push –set-upstream 
+   32  git branch pull
+   33  git branch
+   34  touch r1
+   35  git add *
+   36  git commit -m "4" r1
+   37  git push -u origin sbi-hyd
+   38  git pull
+   39  cat r1
+   40  vim r1
+   41  git push
+   42  git push -u origin sbi-hyd
+   43  cat r1
+   44  git push -u origin r1
+   45  git push -u origin
+   46  git add r1
+   47  git commit -m "5bar" r1
+   48  git push -u origin sbi-hyd
+   49  git log
+   50  git config
+   51  git config --global user.name harsh
+   52  git config --global user.gmail harsh@gmail.com
+   53  git config
+   54  git log
+   55  git config user.name harshitp
+   56  git config --global user.name harshitp
+   57  git config --global user.mail harsh@gmail.com
+   58  git log
+   59  git status
+   60  sudo -i
+   61  git config user.name "harsh"
+   62  git config user.email "harsh@gmail.com"
+   63  git touch file1
+   64  touch file1
+   65  vim file1
+   66  cat file1 
+   67  git add file1
+   68  git commit -m "1st" file1
+   69  git push -u origin sbi-hyd
+   70  git log
+   71  git config user.name "developer1"
+   72  git config user.email "developer1@gmail.com"
+   73  cat > file2
+   74  ll
+   75  git add file2
+   76  git commit -m "2nd" file2
+   77  git push -u origin sbi-hyd
+   78  git log
+   79  git status
+   80  history
+[root@ip-172-31-13-187 ~]# 
